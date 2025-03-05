@@ -40,6 +40,8 @@ The platform MUST support Key protection from key loss or key theft
 
 * Platform MUST provide API to export Remote Attestation Results/Verdict to the requesting Client on the Device, including the Claim Generator
 
+* System should support reporting Attestation Evidence of Claim Generator Application (running in Rich OS) as well as any component relevant to C2PA running inside TEE, to a Remote Attestation Verifier
+
 ## Secure Communication
 
 * Secure TLS V1.3 Communication from a TEE to remote locations for Certificate Signing Requests
@@ -50,7 +52,9 @@ The platform MUST support Key protection from key loss or key theft
 
 * Platform allows flexibility to run part of the Claim Generator Application to run inside a TEE or a Secure Environment
 
-* Platform support strong binding of Claim Generator 
+* Platform support strong binding of Claim Generator application running in Rich OS to Claim Signing Key
+
+* Claim Generator MUST support insertion of Attestation Assertion into C2PA Manifest
 
 ## Compliance
 
