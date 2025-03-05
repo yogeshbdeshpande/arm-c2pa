@@ -15,3 +15,7 @@
 7. System MUST be able to establish a Chain of Provenance, meaning, provenance of Content generated from a Camera Device and subsequently modified by an AI/ML Model
 
 8. System MUST be able to support provenance of content modification use case, i,e. client application for video/text editing
+
+9. System MUST be able to identify itself to a Registration Authority
+
+10. System MUST be able to insert Attestation Verdict inside the Certificate Signing Request
