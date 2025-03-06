@@ -14,4 +14,4 @@ The Assumptions are listed below
 
 Full Block Diagram for (A) depicts the case where the Claim Generator is in the same environment as user application (example Rich OS) while the diagram on the right depicts the case where the Claim Generator is running in the higher previlege execution environments like a TEE
 
-
+![Singl Source Single Application](images/BasicModel.svg)
