@@ -20,4 +20,4 @@ It is TBD to discuss the security of the storage which is essential for overall 
 
 Full Block Diagram of the deployment is indicated below.
 
-![Multiple Source Single Application](images/MultiUserSingleSource.svg)
+![Single Source Multiple Applications](images/MultiUserSingleSource.svg)
