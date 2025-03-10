@@ -65,4 +65,6 @@ On Device Time Stamping Requirement to be sampled by Google
 
 Time Server/Trusted Time Generator, in a TEE, which cannot be compromised..
 
-If there is no On Device Timestamping available on the Device, then the C2PA Compliant Implementation, MUST contact the Time Stamp Server to get the trusted Timestamp from a Trusted TimeStamping Authority and then sign the Manifest, this is like a Counter Signaure. Now there is a Trusted TSA List managed using, TSA Server RFC3161 
+When Signed, the root of Signer has to be on a TSA Trust List
+If there is no On Device Timestamping available on the Device, then the C2PA Compliant Implementation, MUST contact the Time Stamp Server to get the trusted Timestamp from a Trusted TimeStamping Authority and then use it inside the Manifest, this is like a Counter Signaure. TSA Server RFC3161.
+
