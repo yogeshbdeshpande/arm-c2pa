@@ -19,3 +19,9 @@
 9. System MUST be able to identify itself to a Registration Authority
 
 10. System MUST be able to insert Attestation Verdict inside the Certificate Signing Request
+
+11. System MUST have a on Device TSA, seperate HW managing the TimeStamp. Seperate management of TimeStamp
+
+What if the Content Generator is in Cloud, then it is required in Cloud as well!!
+
+TSA Policy on the Certificate Policy...
